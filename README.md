@@ -64,9 +64,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Payaut was a fintech company offering embedded payment solutions for platforms. The payaut.com domain now redirects to Nuvei’s embedded payments page, indicating that Payaut has been acquired or integrated into Nuvei. The company focused on seamless payment integration, supporting global payment methods, payouts, and real‑time transactions for marketplaces, SaaS platforms, and other digital services.
+Payaut is a fintech company offering embedded payment solutions for platforms and marketplaces. Backed by Gradient Ventures, Payaut integrates with Nuvei’s global payment infrastructure, providing access to over 720 payment methods, split payments, PSD2 compliance, and multi‑PSP setups through a unified API. The service enables seamless checkout experiences, auto‑reconciliation, and robust fraud protection for e‑commerce, SaaS, and other digital businesses.
 
-**Areas:** Fintech · Payments · Embedded Payments · Platforms · APIs
+**Areas:** fintech · payments · embedded · API · platform
 
 ## Payaut on APIs.io
 
@@ -74,25 +74,31 @@ Everything profiled for Payaut is published on APIs.io rather than in this repos
 
 ### APIs (1)
 
-- [Payaut API](https://apis.io/apis/payaut/payaut-api/) — Embedded payments API documented on Nuvei developer portal.
+- [Payaut API](https://apis.io/apis/payaut/payaut-api/) — Payaut API as documented publicly: 6 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Payaut API Rules](https://apis.io/rules/payaut/payaut-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Payaut Authentication](https://apis.io/security/payaut/payaut-authentication/)
 - [Payaut Domain Security](https://apis.io/security/payaut/payaut-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://payaut.com/)
-- [Documentation](https://docs.nuvei.com/documentation/home/)
-- [Getting started](https://docs.nuvei.com/documentation/online-payments/)
+- [Documentation](https://apidocs.payaut.com/)
+- [Getting started](https://docs.payaut.com/docs/how/started/)
 - [Changelog](https://docs.nuvei.com/documentation/release-notes/)
 - [Blog](https://www.nuvei.com/post-category/blog)
 - [Terms of service](https://nuvei.com/terms/)
@@ -100,46 +106,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 20.4** — emerging · rubric 0.25.0 · scored 2026-10-29
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-| Facet | Score |
-|---|---|
-| Discoverability | 58.9 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
-| Operational transparency | 15.8 |
-| Developer ergonomics | 33.3 |
-| Access clarity | 34.2 |
-
-**Agent readiness 0.0** — human-only
-
-| Agent-readiness dimension | Result |
-|---|---|
-| Spec Presence | — |
-| Agentic Access | — |
-| Reversibility Documented | — |
-| MCP Server | — |
-| Auth Clarity | — |
-| Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
-| Rate Limit Signal | — |
-| Event Surface Described | — |
-| Agent Skills | — |
-| Well Known Catalog | — |
-| Consent Identity | — |
-| Agent Card | — |
-| Dry Run Mode | — |
-| Delegated Identity | — |
-| Protected Resource Metadata | — |
-| Dynamic Client Registration | — |
-| Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
-
-**Regulatory alignment 12.5** — Payments
-
-The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/payaut/](https://apis.io/providers/payaut/).
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
 ## How this profile is made
 
